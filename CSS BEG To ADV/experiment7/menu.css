@@ -9,7 +9,7 @@ body{
     background-color: rgb(150, 150, 250);
     padding: 10px;
     color: white;
-    border: 2px solid rgb(50, 50, 150);
+    border: 2px solid rgba(39, 39, 116, 1);
     margin: 5px 0;
     text-decoration: none;
 }
