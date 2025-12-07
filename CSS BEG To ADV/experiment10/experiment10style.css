@@ -15,7 +15,10 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
-.navlinks{
+.nav-links{
     list-style: none;
     display: flex;
+}
+.nav-links li{
+    margin: 0 15px;
 }
