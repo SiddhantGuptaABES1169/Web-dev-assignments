@@ -47,3 +47,11 @@
     font-size: 0.9rem;
 }
 /* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-links li{
+        margin: 0 10px;
+    }
+    .actions {
+        font-size: 1rem;
+    }
+}
