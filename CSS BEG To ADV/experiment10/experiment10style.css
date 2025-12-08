@@ -53,3 +53,8 @@
     }
 }
 /* Desktop */
+@media (min-width: 1025px) {
+    .nav-links a {
+        font-size: 1.1rem;
+    }
+}
