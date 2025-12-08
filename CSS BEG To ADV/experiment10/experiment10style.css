@@ -39,7 +39,7 @@
 }
 /* Mobile phone */
 @media (max-width: 786px) {
-    .nav-links, .actions {
+    .nav-links, {
         display: none;
     }
 }
