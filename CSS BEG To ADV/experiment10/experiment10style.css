@@ -42,6 +42,9 @@
     .nav-links{
         display: none;
     }
+    .actions a {
+        font-size: 0.9rem;
+    }
 }
 .actions {
     font-size: 0.9rem;
