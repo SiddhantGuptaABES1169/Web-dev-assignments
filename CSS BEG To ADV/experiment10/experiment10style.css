@@ -38,3 +38,8 @@
     color: #ff6347;
 }
 /* Mobile phone */
+@media (max-width: 786px) {
+    .nav-links, .actions {
+        display: none;
+    }
+}
