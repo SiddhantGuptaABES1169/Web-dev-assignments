@@ -30,7 +30,11 @@ h1{
     border:none;
     width: auto;
 }
-
+.description{
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    margin: 10px 0;
+}
 #price{
     color:red;
     font-weight: bold;
