@@ -46,3 +46,10 @@ h1{
     font-size: 14px;
     color: #666;
 }
+.price{
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 15px;
+}
