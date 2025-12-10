@@ -1,43 +1,50 @@
-
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
 }
-.block-menu {
+
+.block-menu a{
     display: block;
-    width: 200px;
-    background-color: rgb(142, 142, 235);
-    padding: 10px;
+    background-color: #3498db;
     color: white;
-    border: 2px solid rgba(39, 39, 116, 1);
+    padding: 10px;
     margin: 5px 0;
     text-decoration: none;
 }
-.inline-menu {
-    display: inline-block;
-    width: 150px;
-    background-color: rgb(250, 150, 150);
-    padding: 10px;
-    color: white;
-    border: 2px solid rgb(150, 50, 50);
-    margin: 0 5px;
+
+.inline-menu a{
+    display: inline;
+    background-color: #1d9730;
+    color: rgb(243, 239, 239);
+    padding: 5px;
+    margin: 5px;
     text-decoration: none;
 }
-.float-menu {
-    float: left;
-    width: 150px;
-    background-color: rgb(150, 250, 150);
-    padding: 10px;
+
+.inline-block-menu a{
+    display: inline-block;
+    background-color:rgb(177, 16, 177);
     color: white;
-    border: 1px solid rgb(50, 150, 50);
-    margin: 20px;
-    float : left;
-    
+    height: 50px;
+    width: 120px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
 }
+
+.float-menu a{
+    display: float;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
 .clear-example{
     clear: both;
-    background-color: aqua;
+    background-color: #81bacc;
     padding: 10px;
-    margin : 20px 0;
-
+    margin-top: 20px;
+    border: 1px solid #ccc;
 }
